@@ -1,0 +1,26 @@
+---
+layout: page
+title: Oranizations You Can Support
+permalink: /organizations-you-can-support/
+mainnav: true
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Organizations You Can Support</h1>
+  <ul class="post-list">
+    {% for org in site.data._orgs %}
+      <li>
+        <h2>
+          {{ org.title | escape }}
+        </h2>
+        <a href="{{ org.url }}">Get Involved</a>
+        <p>{{org.desc}}</p>
+        <hr>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

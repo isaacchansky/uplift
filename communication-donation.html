@@ -1,0 +1,26 @@
+---
+layout: page
+title: Support By Spreading The Word
+permalink: /support-communication/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Support These Organizations By Spreading The Word</h1>
+  <p>Not all donations have to be financial or physical. Simply sharing facts and sharing the good we all do can go a long, long way. Support these groups by sharing their message with your social networks.</p>
+  <ul class="post-list">
+    {% for org in site.data._orgs %}
+      <li>
+        <h2>
+          {{ org.title | escape }}
+        </h2>
+        <a href="{{ org.url }}">Get Involved</a>
+        <p>{{org.desc}}</p>
+        <hr>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
