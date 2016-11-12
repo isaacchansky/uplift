@@ -6,16 +6,14 @@ permalink: /support-time/
 <div class="home">
 
   <h1 class="page-heading">Support These Organizations By Giving Your Time</h1>
-  <p>These organizations could use a few extra hands around. Lend yours.</p>
-  <ul class="post-list">
+  <ul class="org-list">
     {% for org in site.data._orgs %}
-      <li>
+      <li class="org-card">
         <h2>
           {{ org.title | escape }}
         </h2>
-        <a href="{{ org.url }}">Get Involved</a>
         <p>{{org.desc}}</p>
-        <hr>
+        <a href="{{ org.url }}">Get Involved</a>
       </li>
     {% endfor %}
   </ul>

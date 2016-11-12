@@ -6,16 +6,15 @@ permalink: /support-financially/
 <div class="home">
 
   <h1 class="page-heading">Support These Organizations Financially</h1>
-  <p>Financial donations allow for supplies, new hiring, and development. Let's support these great organizations.</p>
-  <ul class="post-list">
+
+  <ul class="org-list">
     {% for org in site.data._orgs %}
-      <li>
+      <li class="org-card">
         <h2>
           {{ org.title | escape }}
         </h2>
-        <a href="{{ org.url }}">Get Involved</a>
         <p>{{org.desc}}</p>
-        <hr>
+        <a href="{{ org.url }}">Get Involved</a>
       </li>
     {% endfor %}
   </ul>

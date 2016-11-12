@@ -12,9 +12,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #222222;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$action-color:     #bf3131;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -39,24 +40,226 @@ $on-laptop:        800px;
 @import "minima";
 
 
+@mixin lifted() {
+    border: 1px solid $grey-color-light;
+    box-shadow: 4px 3px rgba(0,0,0,0.3);
+    background: $background-color;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: calc(900px - (30px * 2))
+}
+
+.page-heading {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
 .action-button {
-    background: $brand-color;
+    background: $action-color;
     color: $background-color;
-    transition: all 250ms ease-in-out;
     display: inline-block;
     padding: 0.5em 1em;
-    font-size: 1.5rem;
-    border-radius: 4px;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
     text-decoration: none;
+    position: relative;
+    transition: background 250ms ease-in-out;
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 50%;
+        background: rgba(255, 255, 255,0.1);
+        transition: all 250ms ease-in-out;
+    }
 
 
     &:hover {
         text-decoration: none;
-        background: darken($brand-color, 15%);
+        background: darken($action-color, 5%);
         color: $background-color;
+
+        &:after {
+            top: 100%;
+        }
     }
     &:visited {
         color: $background-color;
+    }
+}
+
+
+.manifesto-card {
+    @include lifted();
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    @media-query($on-palm) {
+        padding: 2rem 1rem;
+    }
+
+    counter-reset: item;
+    ol {
+        list-style: none;
+        margin-left: 2rem;
+    }
+    li {
+        counter-increment: item;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    li:before {
+        content: counter(item);
+        color: $grey-color-light;
+        position: absolute;
+        font-family: monospace;
+        font-size: 3.5rem;
+        font-weight: 700;
+        top: -1.5rem;
+        left: -3rem;
+
+    }
+
+    .manifesto-card-closer {
+        font-size: 2rem;
+        font-style: italic;
+        color: $brand-color;
+        text-align: center;
+    }
+}
+.action-banner + .banner {
+    margin-top: 0;
+}
+.banner {
+    background: lighten($brand-color, 5%);
+    position: relative;
+    padding: 4rem 0 12rem;
+    color: white;
+    font-weight: 300;
+    text-shadow: 0.5px 0.5px rgba(0,0,0,0.3);
+    letter-spacing: 0.1px;
+    margin-top: -30px; // bc of wrapper padding.
+
+
+    &:before, &:after {
+        background: lighten($brand-color, 5%);
+        content: "";
+        position: absolute;
+    }
+    &:before {
+        left: -100%;
+        right: -100%;
+        z-index: -1;
+        top:0;
+        bottom:0;
+    }
+    &:after {
+        left: -100%;
+        right: -100%;
+        z-index: -1;
+        bottom: -6rem;
+        top: 50%;
+        transform: rotate(-3deg);
+    }
+
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+}
+
+.banner + * {
+    position: relative;
+    top: -10rem;
+    margin-bottom: -8rem;
+}
+
+
+.action-banner {
+    overflow: auto;
+    .actions {
+        width: 55%;
+        display: inline-block;
+        float: right;
+    }
+    p {
+        width: 45%;
+        display: inline-block;
+        float: left;
+        strong {
+            display: block;
+        }
+        @media screen and (max-width: 800px) {
+            strong {
+                display: inline;
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        p, .actions {
+            width: 100%;
+            float: none;
+        }
+    }
+    .actions {
+        text-align:right;
+    }
+}
+
+
+// orgs
+.org-list {
+    list-style: none;
+    margin: 0;
+}
+
+.org-card {
+    @include lifted();
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    a[href*="http"] {
+        @include lifted();
+        border-color: darken($action-color, 10%);
+        transition: all 250ms ease-in-out;
+        font-weight: 700;
+        padding: 0.5rem 1rem;
+        background: $action-color;
+        color: $background-color;
+        display:inline-block;
+
+        &:hover, &:focus {
+            text-decoration: none;
+            background: darken($action-color, 10%);
+        }
+    }
+}
+
+form {
+    margin-top: 5rem;
+    input[type="text"] {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        border: 2px solid $grey-color;
+    }
+
+    .action-button {
+        cursor: pointer;
+        border: 0;
     }
 }
