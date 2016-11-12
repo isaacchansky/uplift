@@ -36,7 +36,7 @@ layout: default
             <label for="tlemail">Enter your email address</label>
         </p>
         <p>
-            <input type="text" style="min-width:140px" name="email" id="tlemail" />
+            <input type="text" name="email" id="tlemail" />
         </p>
 
         <button type="submit" class="action-button"> Keep me accountable</button>

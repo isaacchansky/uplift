@@ -48,6 +48,10 @@ $on-laptop:        800px;
 
 body {
     overflow-x: hidden;
+
+    @media screen and (max-width: 800px) {
+        font-size: 14px;
+    }
 }
 
 .wrapper {
@@ -103,8 +107,10 @@ body {
     padding: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    @media-query($on-palm) {
+    @media screen and (max-width: 800px) {
         padding: 2rem 1rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     counter-reset: item;
@@ -134,6 +140,9 @@ body {
         font-style: italic;
         color: $brand-color;
         text-align: center;
+        @media screen and (max-width: 800px) {
+            font-size: 1.2rem;
+        }
     }
 }
 .action-banner + .banner {
@@ -156,11 +165,15 @@ body {
         position: absolute;
     }
     &:before {
-        left: -100%;
-        right: -100%;
+        right: auto;
         z-index: -1;
-        top:0;
-        bottom:0;
+        top: 0;
+        bottom: 0;
+        width: 100vw;
+        left: -30px;
+        @media screen and (min-width:900px) {
+            left: calc((100vw - 840px)/-2);
+        }
     }
     &:after {
         left: -100%;
@@ -256,6 +269,8 @@ form {
         font-size: 1.2rem;
         padding: 0.5rem;
         border: 2px solid $grey-color;
+        max-width: 90%;
+        min-width: 0;
     }
 
     .action-button {
