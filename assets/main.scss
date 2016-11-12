@@ -233,21 +233,21 @@ body {
     margin-bottom: 1rem;
     padding: 1rem;
 
-    a[href*="http"] {
-        @include lifted();
-        border-color: darken($action-color, 10%);
-        transition: all 250ms ease-in-out;
-        font-weight: 700;
-        padding: 0.5rem 1rem;
-        background: $action-color;
-        color: $background-color;
-        display:inline-block;
+    // a[href*="http"] {
+    //     @include lifted();
+    //     border-color: darken($action-color, 10%);
+    //     transition: all 250ms ease-in-out;
+    //     font-weight: 700;
+    //     padding: 0.5rem 1rem;
+    //     background: $action-color;
+    //     color: $background-color;
+    //     display:inline-block;
 
-        &:hover, &:focus {
-            text-decoration: none;
-            background: darken($action-color, 10%);
-        }
-    }
+    //     &:hover, &:focus {
+    //         text-decoration: none;
+    //         background: darken($action-color, 10%);
+    //     }
+    // }
 }
 
 form {
@@ -262,4 +262,8 @@ form {
         cursor: pointer;
         border: 0;
     }
+}
+
+.post-title {
+    display: none;
 }

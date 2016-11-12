@@ -1,21 +1,21 @@
 ---
 layout: page
-permalink: /support-financially/
+title: Get a job
+permalink: /jobs/
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Support These Organizations Financially</h1>
-
+  <h1 class="page-heading">If you're looking for a new job, start here.</h1>
   <ul class="org-list">
     {% for org in site.data._orgs %}
-      {% if org.links.financial %}
+      {% if org.links.jobs %}
       <li class="org-card">
         <h2>
           <a href="{{org.url}}">{{ org.title | escape }}</a>
         </h2>
         <p>{{org.desc}}</p>
-        <a class="action-button" href="{{ org.links.financial }}">Give to {{org.title}} </a>
+        <a class="action-button" href="{{ org.links.jobs }}">Work with {{org.title}}</a>
       </li>
       {% endif %}
     {% endfor %}

@@ -1,156 +1,330 @@
 -
   title: American Civic Liberties Union
-  url: https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp
+  url: https://www.aclu.org
+  links:
+    financial: https://action.aclu.org/donate-aclu
+    communication: https://www.aclu.org/action
+    jobs: https://www.aclu.org/careers
+    local: https://www.aclu.org/about/affiliates
+    time: null
   desc: >
     The American Civil Liberties Union works to defend individual rights and liberties guaranteed by the Constitution.
 -
   title: Anti-Defamation League
-  url: http://www.adl.org/regions/?_ga=1.194381605.900306211.1478718507
+  url: http://www.adl.org
+  links:
+    financial: http://www.adl.org/donate
+    communication: http://www.adl.org/action-center/
+    jobs: http://www.adl.org/career/
+    local: http://www.adl.org/regions/
+    time: null
   desc: >
     The Anti-Defamation League was founded in 1913 to “stop the defamation of the Jewish people and to secure justice and fair treatment to all.” Today, it fights against anti-semitism and bigotry as one of the largest civil rights organizations in the country.
 -
   title: Border Angels
-  url: http://www.borderangels.org/our-causes/
+  url: http://www.borderangels.org/
+  links:
+    financial: http://www.borderangels.org/our-causes/
+    communication: null
+    jobs: null
+    local: null
+    time: http://www.borderangels.org/volunteers/
   desc: >
     Border Angels is an all-volunteer non-profit that advocates for immigration reform and social justice focusing on the U.S.-Mexico border. It offers educational and awareness programs and migrant outreach programs to San Diego County’s immigrant population.
 -
   title: Boys & Girls Clubs of America
   url: http://greatfutures.org/pages/waystogive.aspx?_ga=1.12737010.43999393.1478702949
+  links:
+    financial: http://bgca.convio.net/site/Donation2?7942.donation=form1&df_id=7942&_ga=1.204314384.107276315.1478917256
+    communication: null
+    jobs: http://www.bgca.org/Careers/Pages/Careers.aspx
+    local: http://www.bgca.org/FindaClub
+    time: http://www.bgca.org/FindaClub
   desc: >
     The Boys & Girls Clubs of America offers enrichment programs and support for children when they’re not in school.
 -
   title: Campaign Zero
-  url: http://www.joincampaignzero.org/#vision
+  url: http://www.joincampaignzero.org
+  links:
+    financial: null
+    communication: http://www.joincampaignzero.org/
+    jobs: null
+    local: http://www.joincampaignzero.org/
+    time: null
   desc: >
     Campaign Zero advocates for policy solutions to end police violence in America. Fill out this survey to learn how to get involved.
 -
   title: Center for Reproductive Rights
-  url: https://secure3.convio.net/cfrr/site/Donation2;jsessionid=97A4C7A9488B5DDF3450546DE1123DB2.app347a?1380.donation=form1&df_id=1380&web&_ga=1.145398384.513337705.1476995534
+  url: https://www.reproductiverights.org
+  links:
+    financial: https://secure3.convio.net/cfrr/site/Donation2?4620.donation=form1&amp;df_id=4620
+    communication: https://www.reproductiverights.org/take-action
+    jobs: https://www.reproductiverights.org/employment
+    local: null
+    time: http://support.reproductiverights.org/site/Survey?ACTION_REQUIRED=URI_ACTION_USER_REQUESTS&SURVEY_ID=1361&_ga=1.133087431.892202296.1478917066
   desc: >
     The Center for Reproductive Rights is the world’s foremost legal advocate for securing women’s access to quality reproductive health care.
 -
   title: Coalition for Humane Immigrant Rights of Los Angeles
-  url: https://co.clickandpledge.com/sp/d1/default.aspx?wid=118896
+  url: http://www.chirla.org/
+  links:
+    financial: https://co.clickandpledge.com/sp/d1/default.aspx?wid=118896
+    communication: null
+    jobs: http://www.chirla.org/Jobs
+    local: null
+    time: null
   desc: >
     The Coalition for Humane Immigrant Rights of Los Angeles (CHIRLA) is an advocacy and organizing group focusing on achieving human, civil, and labor rights for immigrants.
 -
   title: Council of American-Islamic Relations
-  url: https://www.cair.com/cair-chapters.html
+  url: https://www.cair.com/index.php
+  links:
+    financial: https://www.cair.com/donations/general-donation/campaign/#donation
+    communication: null
+    jobs: https://www.cair.com/about-us/employment.html
+    local: https://www.cair.com/cair-chapters.html
+    time: https://www.cair.com/about-us/volunteer-with-us.html
   desc: >
     The Council on American-Islamic Relations (CAIR) is the country’s largest Muslim civil liberties organization.
 -
   title: EarthJustice
   url: http://earthjustice.org/action
+  links:
+    financial: https://secure.earthjustice.org/site/Donation2?df_id=10960&10960.donation=form1&_ga=1.181132071.1439337357.1478832439
+    communication: http://earthjustice.org/action
+    jobs: http://earthjustice.org/about/jobs
+    local: http://earthjustice.org/about/contact
+    time: null
   desc: >
     EarthJustice is the largest nonprofit environmental law organization in the country, working to protect wildlife, for healthy communities, and for cleaner energy options. The organization represents its clients free of charge.
 
 -
   title: EMILY's List
-  url: http://www.emilyslist.org/pages/entry/run-for-office
+  url: http://www.emilyslist.org/
+  links:
+    financial: https://secure.emilyslist.org/page/contribute/donate-to-emily
+    communication: http://www.emilyslist.org/pages/entry/support-emilys-list
+    jobs: http://www.emilyslist.org/pages/entry/jobs-internships
+    local: null
+    time: http://www.emilyslist.org/pages/entry/run-for-office
   desc: >
     EMILY’s List is a political action committee that works to elect pro-choice Democratic women candidates to public office.
 
 -
   title: Mazzoni Center
   url: https://www.mazzonicenter.org/donate-now/volunteer-opportunities
+  links:
+    financial: https://www.mazzonicenter.org/donate-now
+    communication: null
+    jobs: https://www.mazzonicenter.org/jobs
+    local: null
+    time: https://www.mazzonicenter.org/donate-now/volunteer-opportunities
   desc: >
     The Mazzoni Center offers healthcare services to LGBTQ population in Philadelphia, including trans clinical care services, walk-in HIV and STI testing, primary care, and addiction and recovery services.
 
 -
   title: NARAL Pro-Choice America
-  url: http://actnow.prochoiceamerica.org/signup/volunteer/?source=website#.WCNXKuErKgQ
+  url: http://www.prochoiceamerica.org/index-splash.html
+  links:
+    financial: https://actnow.prochoiceamerica.org/donate/supportnaral/?source=webnav
+    communication: http://www.prochoiceamerica.org/get-involved/share/
+    jobs: http://www.prochoiceamerica.org/about-us/jobs-and-internships/
+    local: null
+    time: http://actnow.prochoiceamerica.org/signup/volunteer/#.WCZ_9-ErKRs
   desc: >
     NARAL Pro-Choice America is a political advocacy group focused on fighting for women’s reproductive rights and freedom.
 -
   title: National Association for the Advancement of Colored People
   url: http://www.naacp.org/find-local-unit/
+  links:
+    financial: https://donate.naacp.org/page/contribute/make-a-contribution
+    communication: http://www.naacp.org/campaigns/fighting-for-democracy/
+    jobs: http://www.naacp.org/employment/
+    local: http://www.naacp.org/find-local-unit/
+    time: http://www.naacp.org/membership/
   desc: >
     The National Association for the Advancement of Colored People (NAACP) works to promote the civil rights of people of color and to eliminate race-based discrimination.
 
 -
   title: NAACP Legal Defense Fund
   url: http://www.naacpldf.org/ways-get-involved
+  links:
+    financial: https://org2.salsalabs.com/o/6857/p/salsa/donation/common/public/;jsessionid=231600E3EBF456F8CD3EC8F931E4D11B-n3?donate_page_KEY=11561
+    communication: http://www.naacpldf.org/take-action
+    jobs: http://www.naacpldf.org/careers
+    local: null
+    time: null
   desc: >
     The NAACP Legal Defense Fund fights for racial justice through litigation, advocacy and education.
 -
   title: National Coalition Against Domestic Vioence
-  url: http://ncadv.org/give-back/donate
+  url: http://ncadv.org
+  links:
+    financial: http://ncadv.org/give-back/donate
+    communication: http://ncadv.org/get-involved/raise-awareness
+    jobs: http://ncadv.org/stay-connected/employment
+    local: null
+    time: http://ncadv.org/get-involved/volunteer
   desc: >
     The National Coalition Against Domestic Violence (NCADV) advocates for victims and attempts to change policy surrounding domestic violence.
 -
   title: National Immigration Law Center
-  url: https://www.nilc.org/get-involved/
+  url: https://www.nilc.org
+  links:
+    financial: https://www.nilc.org/get-involved/donate/
+    communication: null
+    jobs: https://www.nilc.org/get-involved/jobs/
+    local: null
+    time: null
   desc: >
     The National Immigration Law Center is dedicated to fighting for the rights of low-income immigrants through litigation, policy analysis and advocacy, and various other methods.
 
 -
   title: National Immigration Forum
   url: http://immigrationforum.org/heartsmindslives/
+  links:
+    financial: http://immigrationforum.org/heartsmindslives/
+    communication: null
+    jobs: http://immigrationforum.org/about/job-opportunities-with-the-national-immigration-forum/
+    local: null
+    time: null
   desc: >
     The National Immigration Forum is another leading immigrant advocacy group that offers various programs to integrate immigrants into the workforce and obtain citizenship.
 -
   title: National Organization for Women
   url: http://nownyc.org/get-involved/
+  links:
+    financial: http://nownyc.org/donate/
+    communication: http://nownyc.org/get-involved/
+    jobs: null
+    local: null
+    time: http://nownyc.org/get-involved/
   desc: >
     National Organization for Women (NOW) is an activist organization, foundation and PAC that advocates for equal rights for women.
 -
   title: New York City Alliance Against Sexual Assault
-  url: http://www.svfreenyc.org/volun_resources.html
+  url: http://www.svfreenyc.org/
+  links:
+    financial: http://www.svfreenyc.org/support.html
+    communication: null
+    jobs: http://www.svfreenyc.org/empl.html
+    local: null
+    time: null
   desc: >
     The New York City Alliance Against Sexual Assault lists a number of ongoing volunteer opportunities in childcare, community training, rape crisis counseling, and legal advocacy
 
 -
   title: NextGen Climate Action
-  url: https://nextgenclimate.org/volunteer/
+  url: https://nextgenclimate.org
+  links:
+    financial: https://nextgenclimate.org/donate
+    communication: null
+    jobs: https://nextgenclimate.org/careers/
+    local: null
+    time: https://nextgenclimate.org/volunteer/
   desc: >
     NextGen Climate Action works politically “to prevent climate disaster.”
 
 -
   title: Planned Parenthood
-  url: https://plannedparenthoodrccorpvolunteer.peoplefluent.com/index.html
+  url: https://www.plannedparenthood.org
+  links:
+    financial: https://secure.ppaction.org/site/Donation2?df_id=12913&12913.donation=form1&s_src=Evergreen_c3_PPNonDirected_banner&_ga=1.204318361.846944169.1478918868
+    communication: https://www.plannedparenthoodaction.org/act/
+    jobs: https://www.plannedparenthood.org/about-us/jobs-volunteering
+    local: https://www.plannedparenthoodaction.org/community/
+    time: https://www.plannedparenthoodaction.org/act/
   desc: >
     Planned Parenthood is the country’s leading sexual and reproductive healthcare provider. Click here for nationwide volunteer opportunities (including as a clinic escort) and click here to donate. Local chapters also list more extensive volunteer opportunities, so take a look at your specific chapter (here’s New York’s page) for more.
 
 -
   title: Rape, Abuse & Incest National Network
-  url: https://www.rainn.org/get-involved
+  url: https://www.rainn.org
+  links:
+    financial: https://donate.rainn.org/
+    communication: https://www.rainn.org/node/2229
+    jobs: https://www.rainn.org/work-rainn
+    local: null
+    time: https://www.rainn.org/get-involved
   desc: >
     Rape, Abuse & Incest National Network (RAINN) is the country’s largest anti-sexual violence organization, which operates the National Sexual Assault Hotline (800-656-HOPE; online.rainn.org; rainn.org/es) and programs to help victims of sexual violence.
 -
   title: Reproductive Health Access Project
-  url: https://donatenow.networkforgood.org/1438163
+  url: http://www.reproductiveaccess.org/
+  links:
+    financial: https://donatenow.networkforgood.org/1438163
+    communication: null
+    jobs: http://www.reproductiveaccess.org/get-involved/join-team/
+    local: null
+    time: http://www.reproductiveaccess.org/get-involved/clinician-advocacy/
   desc: >
     The Reproductive Health Access Project is a non-profit that trains clinicians to make quality reproductive healthcare more accessible.
 
 -
   title: Running Start
-  url: https://secure.runningstartonline.org/page/contribute/onetimedonation
+  url: http://runningstartonline.org/
+  links:
+    financial: https://secure.runningstartonline.org/page/contribute/onetimedonation
+    communication: null
+    jobs: null
+    local: null
+    time: http://runningstartonline.org/programs/mentorship
   desc: >
     Running Start is another organization dedicated to educating young women and girls about the importance of politics, through the Young Women’s Political Leadership Program and various other fellowships and internships.
 -
   title: She Should Run
   url: http://www.sheshouldrun.org/ask_a_woman_to_run_for_office
+  links:
+    financial: https://sheshouldrun.nationbuilder.com/donate
+    communication: http://www.sheshouldrun.org/ask_a_woman_to_run_for_office
+    jobs: null
+    local: null
+    time: http://www.sheshouldrun.org/join_our_cause
   desc: >
     She Should Run is a non-profit that aims to get more women into elected leadership roles.
 
 -
   title: Sierra Club
-  url: https://vault.sierraclub.org/ways-to-give/
+  url: https://sierraclub.org/
+  links:
+    financial: https://vault.sierraclub.org/ways-to-give/
+    communication: null
+    jobs: https://sierraclub.org/careers
+    local: https://sierraclub.org/near-you
+    time: null
   desc: >
     The Sierra Club is the largest grassroots environmental organization in the county, and works to protect millions of acres of wilderness and pass legislation like the Clean Air Act and the Clean Water Act.
 
 -
   title: Southern Poverty Law Center
-  url: https://donate.splcenter.org/sslpage.aspx?pid=463
+  url: https://www.splcenter.org/
+  links:
+    financial: https://donate.splcenter.org/sslpage.aspx?pid=463
+    communication: null
+    jobs: https://careers-splcenter.icims.com/jobs/search?ss=1
+    local: null
+    time: null
   desc: >
     The Southern Poverty Law Center fights hate groups and bigotry using education, litigation, and advocacy.
 -
   title: Sylvia Rivera Law Project
-  url: http://srlp.org/get-involved/volunteer/
+  url: http://srlp.org/
+  links:
+    financial: http://srlp.org/srlp/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=4
+    communication: null
+    jobs: null
+    local: null
+    time: http://srlp.org/get-involved/volunteer/
   desc: >
     The Sylvia Rivera Law Project provides legal services specifically to low-income people and people of color who are transgender, intersex, or gender non-conforming.
 -
   title: Young Center for Immigration Children's Rights
-  url: https://donatenow.networkforgood.org/TheYoungCenter
+  url: http://theyoungcenter.org/
+  links:
+    financial: https://donatenow.networkforgood.org/TheYoungCenter
+    communication: null
+    jobs: null
+    local: null
+    time: http://theyoungcenter.org/act/volunteer/
   desc: >
     The Young Center for Immigrant Children’s Rights works to protect the best interests of children who come to the U.S. on their own. Donate here or learn about how you can volunteer as a Child Advocate in Chicago, New York, Houston, and Washington D.C. here.

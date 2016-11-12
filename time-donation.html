@@ -8,13 +8,15 @@ permalink: /support-time/
   <h1 class="page-heading">Support These Organizations By Giving Your Time</h1>
   <ul class="org-list">
     {% for org in site.data._orgs %}
+      {% if org.links.time %}
       <li class="org-card">
         <h2>
-          {{ org.title | escape }}
+          <a href="{{org.url}}">{{ org.title | escape }}</a>
         </h2>
         <p>{{org.desc}}</p>
-        <a href="{{ org.url }}">Get Involved</a>
+        <a class="action-button" href="{{ org.links.time }}">Volunteer with {{org.title}}</a>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
