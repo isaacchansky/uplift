@@ -21,7 +21,7 @@ layout: default
 <div class="manifesto-card">
     <h2>Our Priciples:</h2>
     <ol>
-        <li>We believe that all American people deserve life, libery, and the pursuit of Happiness. These are our given rights.</li>
+        <li>We believe that all American people deserve Life, Liberty, and the pursuit of Happiness. These are our given rights.</li>
         <li>We reject an Us-vs-Them mentality. It is all us. We have a single government, a single country. And while we may disagree often, we are a single people. We will strive to enact change as such.</li>
         <li>We will work to be empathetic to our fellow Americans. Across race, geography, gender, and upbringing.</li>
         <li>We are a movement. We are not a splash or a brief moment of sunlight. We are the consistent and everlasting result of our shared desire for progress and change. We will act often. We will make an impact.</li>
